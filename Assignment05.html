@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Assignment 05</title>
+</head>
+<body>
+<!--  write a program that calculates the Body Mass Index (BMI) from a user's weight and height -->
+  <h1 style="text-align: center; background-color: blue;">BMI Calculator:-</h1>
+  <p>Click on the below button to continue:</p>
+  <button type="button" onclick="tarar()" style="background-color: yellow;">Calculate</button>
+  <script>
+    function tarar(){
+    let weight = parseFloat(prompt('Please Enter your weight: '));
+    let height = parseFloat(prompt('Please Enter your height (in meters): '));
+    alert('Your BMI is: ' +(weight)/height**2);
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Assignment 04</title>
+</head>
+<body>
+    <!-- Write a program that takes radius of a circle from the user and calculates the diameter,
+ircumference and area of the circle and display the result. -->
+    <h1 style="text-align: center; background-color: blue;">Diameter, circumstance & Area Calculator:-</h1>
+    <p>Click on the below button to start calculations:</p>
+    <button type="button" onclick="zahran()" style="background-color: yellow;">Calculate</button>
+        <script>
+            function zahran() {
+            let radius = parseFloat(prompt("Enter the radius of the circle:"));
+            let diameter = 3.14*radius;
+            let circumstances = 2*3.14*radius;
+            let area = 3.14*(radius**2);
+            alert("The diameter is: " +diameter);
+            alert("The circumstance is: " +circumstances);
+            alert("The area is: " +area);
+            }
+        </script>
+</body>
+</html>

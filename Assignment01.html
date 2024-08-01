@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Assignment 01</title>
+</head>
+<body id="raja">
+    <h1 style="text-align: center; background-color: blue;">Digital Calculator</h1>
+    <p>Click on the below button to continue calculations:</p>
+    <button type="button" onclick="calculate()" style="background-color: yellow;">Start Calculations</button>
+    <script>
+       
+        // <h1>Digital Calculator:</h1>
+        function calculate(){
+        let a = parseFloat(prompt("Please enter your first number: "));
+        let b = parseFloat(prompt("Please enter your second number: "));
+        alert("The Sum is: " +(a + b));
+        alert("The Subtraction is: " +(a - b));
+        alert("The Multiplication is: " +(a * b));
+        alert("The Division is: " +(a / b));
+        }
+        
+    </script>
+</body>
+</html>
